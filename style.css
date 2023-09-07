@@ -1,0 +1,34 @@
+body {
+    background:radial-gradient(navy,black);
+    text-align: center;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+
+
+    height: 90vh;
+    display: grid;
+
+}
+ 
+main {
+    border: 4px dotted;
+    color: pink;
+    width: 200px;
+    height: 200px;
+    place-items: center;
+    border-radius: 50%;
+    display: grid;
+
+    animation: rota 60s infinite;
+    
+}
+
+@keyframes rota {
+    0%{rotate: 0deg;}
+    100%{ rotate: 360deg;}
+
+
+}
+
+
